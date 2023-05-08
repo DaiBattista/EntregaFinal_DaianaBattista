@@ -16,7 +16,7 @@
 
 .footer__col {
     width: 20%;
-    padding: 40px;
+    padding: 30px;
 
     h4 {
         color: $color-primario;
@@ -72,8 +72,9 @@
     .footer__col {
         width: 50%;
         margin-bottom: 30px;
+
     }
-}
+    }
 
 @media(max-width: 574px) {
     .footer__col {

@@ -64,7 +64,7 @@
 
     & iframe {
         width: 60vw;
-        height: 100vh;
+        height: 95vh;
         border-radius: 24px;
     }
 }
@@ -75,14 +75,12 @@
     .main__trailers {
         display: flex;
         flex-direction: column;
-        gap: 20px;
     }
 
     .trailer__thumbnails1 {
         grid-area: 1 / 1 / 2 / 2;
         display: flex;
         flex-direction: column;
-        margin-top: 100vh;
 
         &.main__img {
             width: 90vw;

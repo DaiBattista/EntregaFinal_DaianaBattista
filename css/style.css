@@ -1226,7 +1226,7 @@ header .nav__menu {
   display: flex;
   padding: 4.5em;
   cursor: pointer;
-  background-image: url("../../img/personajes_card.jpg");
+  background-image: url("../img/personajes_card.jpg");
   color: #fff;
   justify-content: space-between;
 }
@@ -1235,11 +1235,11 @@ header .nav__menu {
   display: flex;
   padding: 4.5em;
   cursor: pointer;
-  background-image: url("../../img/personajes_card.jpg");
+  background-image: url("../img/personajes_card.jpg");
   color: #fff;
   justify-content: space-between;
 }
-.main__container__personajes .tab-title__bonus h2 {
+.main__container__personajes .tab-title__bonus git h2 {
   color: #E6BAAD;
 }
 
@@ -1282,9 +1282,11 @@ header .nav__menu {
     align-items: center;
   }
   .main__container__personajes .tab-title {
+    background-image: url("../../img/personajes_card.jpg");
     padding: 1em;
   }
   .main__container__personajes .tab-title__bonus {
+    background-image: url("../../img/personajes_card.jpg");
     padding: 1em;
   }
   .tab-title__bonus {

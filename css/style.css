@@ -1474,7 +1474,7 @@ header .nav__menu {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: -50vh;
     width: 95vw;
   }
   .main__video iframe,

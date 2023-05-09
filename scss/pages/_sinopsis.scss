@@ -87,7 +87,6 @@
         "img__cast4 img__cast5 img__cast6"
         "img__cast7 img__cast8 img__cast9";
     grid-area: sinopsis__cast;
-    padding: 5%;
     justify-content: center;
 }
 
@@ -139,7 +138,7 @@
     position: relative;
 
     .sinopsis_cast_img {
-        border-radius: 24px;
+        border-radius: 16px;
         width: 100%;
         filter: grayscale(100%);
         transition: all 500ms ease-out;
@@ -155,30 +154,31 @@
 .img__cast6 figure .img__info,
 .img__cast7 figure .img__info,
 .img__cast8 figure .img__info {
-    width: 80.1%;
-    height: 79%;
+    width: 90%;
+    height: 89%;
     position: absolute;
     top: 0;
     transition: all 500ms ease-out;
     background: rgb(22, 67, 126, 0.8);
-    border-radius: 24px;
+    border-radius: 16px;
     opacity: 0;
     visibility: hidden;
     text-align: left;
-    padding: 10%;
+    padding: 5%;
 }
 
 .img__cast9 figure .img__info__bonus {
-    height: 78.5%;
+    height: 88.5%;
+    width: 90%;
     position: absolute;
     top: 0;
     transition: all 500ms ease-out;
     background: rgba(235, 18, 18, 0.733);
-    border-radius: 24px;
+    border-radius: 16px;
     opacity: 0;
     visibility: hidden;
     text-align: left;
-    padding: 10%;
+    padding: 5%;
 
     .button__img .header__button {
         background-color: $color-secundario;
@@ -200,13 +200,9 @@
 
     h3 {
         color: $color-primario;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
-    p {
-        color: $color-primario;
-        font-size: 1rem;
-    }
 
     .button__img {
         display: flex;
@@ -232,7 +228,7 @@
 
     h3 {
         color: $color-primario;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     p {
@@ -258,15 +254,15 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin-top: -30%;
-    padding: 20px;
+    margin-top: -95%;
+    padding: 10px;
     color: $color-primario;
-    font-size: 1.5rem;
     font-weight: 600;
     text-shadow: 0 0 0.2em rgb(19, 19, 19);
 
     h3 {
-        color: $color-primario
+        color: $color-primario;
+        font-size: 1rem;
     }
 }
 
@@ -306,51 +302,7 @@
 }
 
 /*Responsive*/
-
-
-@media only screen and (max-width:1320px) and (min-width: 980px) {
-    .actor__name {
-        margin-top: -60%;
-
-        h3 {
-            font-size: 1rem;
-        }
-    }
-
-    .img__cast1 figure:hover>.img__info,
-    .img__cast2 figure:hover>.img__info,
-    .img__cast3 figure:hover>.img__info,
-    .img__cast4 figure:hover>.img__info,
-    .img__cast5 figure:hover>.img__info,
-    .img__cast6 figure:hover>.img__info,
-    .img__cast7 figure:hover>.img__info,
-    .img__cast8 figure:hover>.img__info {
-
-        h3 {
-            color: $color-primario;
-            font-size: 0.8rem;
-        }
-
-        p {
-            color: $color-primario;
-            font-size: 0.6rem;
-        }
-    }
-
-    .img__cast9 figure:hover>.img__info__bonus {
-        h3 {
-            color: $color-primario;
-            font-size: 0.8rem;
-        }
-
-        p {
-            color: $color-primario;
-            font-size: 0.6rem;
-        }
-    }
-}
-
-@media only screen and (max-width:980px) and (min-width: 5px) {
+@media (max-width: 768px) {
     .img__sinopsis {
         height: 100%;
         z-index: -1;
@@ -447,7 +399,7 @@
     }
 
     .actor__name {
-        margin-top: -35%;
+        margin-top: -95%;
     }
 
     .sinopsis__personajes__info {
@@ -473,22 +425,12 @@
             color: $color-primario;
             font-size: 1rem;
         }
-
-        p {
-            color: $color-primario;
-            font-size: 0.8rem;
-        }
     }
 
     .img__cast9 figure:hover>.img__info__bonus {
         h3 {
             color: $color-primario;
             font-size: 1rem;
-        }
-
-        p {
-            color: $color-primario;
-            font-size: 0.8rem;
         }
     }
 }

@@ -75,7 +75,7 @@
     .main__trailers {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
     }
 
     .trailer__thumbnails1 {
@@ -119,11 +119,11 @@
         align-items: center;
         margin-top: 5%;
         width: 95vw;
-        height: 95vh;
+        height: 90vh;
 
         & iframe {
             width: 95vw;
-            height: 95vh;
+            height: 90vh;
         }
     }
 }

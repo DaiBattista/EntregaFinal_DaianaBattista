@@ -28,7 +28,7 @@
 
     p {
         color: whitesmoke;
-        font-size: 1.2em;
+        font-size: 1.2rem;
         text-shadow: 0 0 0.2em rgb(19, 19, 19);
     }
 }
@@ -63,11 +63,11 @@
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
 
     h3 {
-        font-size: 1.4em;
+        font-size: 1.4rem;
     }
 }
 
@@ -200,12 +200,12 @@
 
     h3 {
         color: $color-primario;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     p {
         color: $color-primario;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .button__img {
@@ -232,12 +232,12 @@
 
     h3 {
         color: $color-primario;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     p {
         color: $color-primario;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .button__img {
@@ -313,7 +313,7 @@
         margin-top: -60%;
 
         h3 {
-            font-size: 1em;
+            font-size: 1rem;
         }
     }
 }
@@ -381,12 +381,10 @@
     .img__cast7,
     .img__cast8,
     .img__cast9 {
-        position: relative;
 
         .sinopsis_cast_img {
             width: 100%;
         }
-    
     }
 
     .sinopsis__personajes {
@@ -429,5 +427,36 @@
         padding: 5vw;
         text-align: center;
     }
-}
 
+    .img__cast1 figure:hover>.img__info,
+    .img__cast2 figure:hover>.img__info,
+    .img__cast3 figure:hover>.img__info,
+    .img__cast4 figure:hover>.img__info,
+    .img__cast5 figure:hover>.img__info,
+    .img__cast6 figure:hover>.img__info,
+    .img__cast7 figure:hover>.img__info,
+    .img__cast8 figure:hover>.img__info {
+
+        h3 {
+            color: $color-primario;
+            font-size: 1rem;
+        }
+
+        p {
+            color: $color-primario;
+            font-size: 0.8rem;
+        }
+    }
+
+    .img__cast9 figure:hover>.img__info__bonus {
+        h3 {
+            color: $color-primario;
+            font-size: 1rem;
+        }
+
+        p {
+            color: $color-primario;
+            font-size: 0.8rem;
+        }
+    }
+}

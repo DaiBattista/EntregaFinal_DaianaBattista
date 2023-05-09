@@ -1239,8 +1239,9 @@ header .nav__menu {
   color: #fff;
   justify-content: space-between;
 }
-.main__container__personajes .tab-title__bonus git h2 {
+.main__container__personajes .tab-title__bonus h2 {
   color: #E6BAAD;
+  color: #fff;
 }
 
 .main__container__personajes .tab-title:hover {

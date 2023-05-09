@@ -863,7 +863,7 @@ header .nav__menu {
 .img__cast7 figure:hover > .img__info h3,
 .img__cast8 figure:hover > .img__info h3 {
   color: #E6BAAD;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .img__cast1 figure:hover > .img__info .button__img,
 .img__cast2 figure:hover > .img__info .button__img,
@@ -889,6 +889,7 @@ header .nav__menu {
   background-color: #E6BAAD;
   color: #16437E;
   margin-top: 30%;
+  width: 150px;
 }
 .img__cast1 figure:hover > .img__info .button__img .header__button a,
 .img__cast2 figure:hover > .img__info .button__img .header__button a,
@@ -907,11 +908,7 @@ header .nav__menu {
 }
 .img__cast9 figure:hover > .img__info__bonus h3 {
   color: #E6BAAD;
-  font-size: 1.5rem;
-}
-.img__cast9 figure:hover > .img__info__bonus p {
-  color: #E6BAAD;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .img__cast9 figure:hover > .img__info__bonus .button__img {
   display: flex;
@@ -923,6 +920,7 @@ header .nav__menu {
   margin-top: 30%;
   color: #0A66C2;
   transition: all 0.8s;
+  width: 150px;
 }
 
 .actor__name {

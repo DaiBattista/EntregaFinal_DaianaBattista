@@ -200,9 +200,8 @@
 
     h3 {
         color: $color-primario;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
-
 
     .button__img {
         display: flex;
@@ -215,6 +214,7 @@
         background-color: $color-primario;
         color: $color-complementario;
         margin-top: 30%;
+        width: 150px;
     }
 
     .button__img .header__button a {
@@ -228,12 +228,7 @@
 
     h3 {
         color: $color-primario;
-        font-size: 1.5rem;
-    }
-
-    p {
-        color: $color-primario;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .button__img {
@@ -247,6 +242,7 @@
         margin-top: 30%;
         color: $color-secundario;
         transition: all .8s;
+        width: 150px;
     }
 }
 

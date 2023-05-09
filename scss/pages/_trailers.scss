@@ -75,12 +75,14 @@
     .main__trailers {
         display: flex;
         flex-direction: column;
+        gap: 20px;
     }
 
     .trailer__thumbnails1 {
         grid-area: 1 / 1 / 2 / 2;
         display: flex;
         flex-direction: column;
+        margin-top: 100vh;
 
         &.main__img {
             width: 90vw;
@@ -115,12 +117,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: -50vh;
+        margin-top: 5%;
         width: 95vw;
+        height: 90vh;
 
         & iframe {
             width: 95vw;
-            height: 45vh;
+            height: 95vh;
         }
     }
 }

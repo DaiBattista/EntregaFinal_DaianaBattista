@@ -916,9 +916,11 @@ header .nav__menu {
 }
 .img__cast9 figure:hover > .img__info__bonus h3 {
   color: #E6BAAD;
+  font-size: 1rem;
 }
 .img__cast9 figure:hover > .img__info__bonus p {
   color: #E6BAAD;
+  font-size: 0.8rem;
 }
 .img__cast9 figure:hover > .img__info__bonus .button__img {
   display: flex;

@@ -1368,15 +1368,15 @@ header .nav__menu {
   grid-area: 1/1/7/3;
   display: flex;
   flex-direction: column;
-  padding: 5%;
+  padding: 25% 0 25% 25%;
   position: relative;
+  gap: 20px;
 }
 
 .trailer__thumbnails1 {
   grid-area: 1/1/2/3;
   transition: 0.8s;
   cursor: pointer;
-  margin-top: 20%;
 }
 .trailer__thumbnails1:hover {
   filter: saturate(180%);
@@ -1408,6 +1408,7 @@ header .nav__menu {
   flex-direction: column;
   padding: 2%;
   margin-top: 9.5%;
+  width: 60vw;
 }
 .main__video#oficial,
 .main__video2#oficial,
@@ -1426,11 +1427,10 @@ header .nav__menu {
   display: none;
   transition: 0.8s;
 }
-.main__video iframe,
-.main__video2 iframe,
-.main__video3 iframe {
-  width: 60vw;
-  height: 100vh;
+.main__video .video__view,
+.main__video2 .video__view,
+.main__video3 .video__view {
+  width: 90%;
   border-radius: 24px;
 }
 
@@ -1439,16 +1439,18 @@ header .nav__menu {
   .main__trailers {
     display: flex;
     flex-direction: column;
+    padding: 5%;
     gap: 20px;
   }
   .trailer__thumbnails1 {
     grid-area: 1/1/2/2;
     display: flex;
     flex-direction: column;
-    margin-top: 100vh;
+    margin-top: 70%;
   }
   .trailer__thumbnails1.main__img {
     width: 90vw;
+    border-radius: 8px;
   }
   .trailer__thumbnails2 {
     grid-area: 2/1/3/2;
@@ -1457,6 +1459,7 @@ header .nav__menu {
   }
   .trailer__thumbnails2.main__img {
     width: 90vw;
+    border-radius: 8px;
   }
   .trailer__thumbnails3 {
     grid-area: 3/1/4/2;
@@ -1465,6 +1468,7 @@ header .nav__menu {
   }
   .trailer__thumbnails3.main__img {
     width: 90vw;
+    border-radius: 8px;
   }
   .main__video,
   .main__video2,
@@ -1474,15 +1478,12 @@ header .nav__menu {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-top: 5%;
-    width: 95vw;
-    height: 90vh;
+    width: 97%;
   }
-  .main__video iframe,
-  .main__video2 iframe,
-  .main__video3 iframe {
-    width: 95vw;
-    height: 100vh;
+  .video__view {
+    width: 90%;
     border-radius: 24px;
   }
 }

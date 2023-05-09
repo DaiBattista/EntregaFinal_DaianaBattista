@@ -1474,15 +1474,15 @@ header .nav__menu {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2%;
+    margin-top: 5%;
     width: 95vw;
-    height: 95vh;
+    height: 100vh;
   }
   .main__video iframe,
   .main__video2 iframe,
   .main__video3 iframe {
     width: 95vw;
-    height: 60vh;
+    height: 95vh;
   }
 }
 .main__container__historia {

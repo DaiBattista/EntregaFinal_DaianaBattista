@@ -1476,13 +1476,12 @@ header .nav__menu {
     align-items: center;
     margin-top: 5%;
     width: 95vw;
-    height: 90vh;
   }
   .main__video iframe,
   .main__video2 iframe,
   .main__video3 iframe {
     width: 95vw;
-    height: 95vh;
+    height: 45vh;
   }
 }
 .main__container__historia {

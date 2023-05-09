@@ -316,6 +316,38 @@
             font-size: 1rem;
         }
     }
+
+    .img__cast1 figure:hover>.img__info,
+    .img__cast2 figure:hover>.img__info,
+    .img__cast3 figure:hover>.img__info,
+    .img__cast4 figure:hover>.img__info,
+    .img__cast5 figure:hover>.img__info,
+    .img__cast6 figure:hover>.img__info,
+    .img__cast7 figure:hover>.img__info,
+    .img__cast8 figure:hover>.img__info {
+
+        h3 {
+            color: $color-primario;
+            font-size: 0.8rem;
+        }
+
+        p {
+            color: $color-primario;
+            font-size: 0.6rem;
+        }
+    }
+
+    .img__cast9 figure:hover>.img__info__bonus {
+        h3 {
+            color: $color-primario;
+            font-size: 0.8rem;
+        }
+
+        p {
+            color: $color-primario;
+            font-size: 0.6rem;
+        }
+    }
 }
 
 @media only screen and (max-width:980px) and (min-width: 5px) {

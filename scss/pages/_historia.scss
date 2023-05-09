@@ -368,4 +368,49 @@
         padding-left: 25%;
 
     }
+
+    /* PANTALLA final */
+#pantalla-final {
+    display: none;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-size: 1.5em;
+        line-height: 1.6em;
+        display: flex;
+        justify-content: flex-end;
+        align-items: baseline;
+    }
+}
+
+.opcion .nombreAcertada {
+    background-color: yellowgreen;
+    color: #fff;
+}
+
+.opcion .letraAcertada {
+    background-color: yellowgreen;
+    color: #fff;
+}
+
+.opcion .nombreNoAcertada {
+    background-color: darkred;
+    color: #fff;
+}
+
+.opcion .letraNoAcertada {
+    background-color: darkred;
+    color: #fff;
+}
+
+.historia__video {
+    .historia__v {
+        width: 90vw;
+        border-radius: 16px;
+    }
+}
+
 }

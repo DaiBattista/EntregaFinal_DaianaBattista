@@ -863,6 +863,7 @@ header .nav__menu {
 .img__cast7 figure:hover > .img__info h3,
 .img__cast8 figure:hover > .img__info h3 {
   color: #E6BAAD;
+  font-size: 1rem;
 }
 .img__cast1 figure:hover > .img__info p,
 .img__cast2 figure:hover > .img__info p,
@@ -873,6 +874,7 @@ header .nav__menu {
 .img__cast7 figure:hover > .img__info p,
 .img__cast8 figure:hover > .img__info p {
   color: #E6BAAD;
+  font-size: 0.8rem;
 }
 .img__cast1 figure:hover > .img__info .button__img,
 .img__cast2 figure:hover > .img__info .button__img,

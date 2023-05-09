@@ -691,7 +691,7 @@ header .nav__menu {
 }
 .header__text__sinopsis p {
   color: whitesmoke;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   text-shadow: 0 0 0.2em rgb(19, 19, 19);
 }
 
@@ -717,10 +717,10 @@ header .nav__menu {
   border-right: solid 2px #16437E;
 }
 .sinopsis__text p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 .sinopsis__text h3 {
-  font-size: 1.4em;
+  font-size: 1.4rem;
 }
 
 .sinopsis__cast__title {
@@ -863,7 +863,7 @@ header .nav__menu {
 .img__cast7 figure:hover > .img__info h3,
 .img__cast8 figure:hover > .img__info h3 {
   color: #E6BAAD;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .img__cast1 figure:hover > .img__info p,
 .img__cast2 figure:hover > .img__info p,
@@ -874,7 +874,7 @@ header .nav__menu {
 .img__cast7 figure:hover > .img__info p,
 .img__cast8 figure:hover > .img__info p {
   color: #E6BAAD;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .img__cast1 figure:hover > .img__info .button__img,
 .img__cast2 figure:hover > .img__info .button__img,
@@ -918,11 +918,11 @@ header .nav__menu {
 }
 .img__cast9 figure:hover > .img__info__bonus h3 {
   color: #E6BAAD;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .img__cast9 figure:hover > .img__info__bonus p {
   color: #E6BAAD;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .img__cast9 figure:hover > .img__info__bonus .button__img {
   display: flex;
@@ -990,7 +990,7 @@ header .nav__menu {
     margin-top: -60%;
   }
   .actor__name h3 {
-    font-size: 1em;
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 980px) and (min-width: 5px) {
@@ -1026,17 +1026,6 @@ header .nav__menu {
     grid-template-areas: "img__cast1" "img__cast2" "img__cast3" "img__cast4" "img__cast5" "img__cast6" "img__cast7" "img__cast8" "img__cast9";
     padding: 5%;
     grid-area: sinopsis__cast;
-  }
-  .img__cast1,
-  .img__cast2,
-  .img__cast3,
-  .img__cast4,
-  .img__cast5,
-  .img__cast6,
-  .img__cast7,
-  .img__cast8,
-  .img__cast9 {
-    position: relative;
   }
   .img__cast1 .sinopsis_cast_img,
   .img__cast2 .sinopsis_cast_img,
@@ -1083,6 +1072,36 @@ header .nav__menu {
     flex-direction: column;
     padding: 5vw;
     text-align: center;
+  }
+  .img__cast1 figure:hover > .img__info h3,
+  .img__cast2 figure:hover > .img__info h3,
+  .img__cast3 figure:hover > .img__info h3,
+  .img__cast4 figure:hover > .img__info h3,
+  .img__cast5 figure:hover > .img__info h3,
+  .img__cast6 figure:hover > .img__info h3,
+  .img__cast7 figure:hover > .img__info h3,
+  .img__cast8 figure:hover > .img__info h3 {
+    color: #E6BAAD;
+    font-size: 1rem;
+  }
+  .img__cast1 figure:hover > .img__info p,
+  .img__cast2 figure:hover > .img__info p,
+  .img__cast3 figure:hover > .img__info p,
+  .img__cast4 figure:hover > .img__info p,
+  .img__cast5 figure:hover > .img__info p,
+  .img__cast6 figure:hover > .img__info p,
+  .img__cast7 figure:hover > .img__info p,
+  .img__cast8 figure:hover > .img__info p {
+    color: #E6BAAD;
+    font-size: 0.8rem;
+  }
+  .img__cast9 figure:hover > .img__info__bonus h3 {
+    color: #E6BAAD;
+    font-size: 1rem;
+  }
+  .img__cast9 figure:hover > .img__info__bonus p {
+    color: #E6BAAD;
+    font-size: 0.8rem;
   }
 }
 .img__personajes {

@@ -1235,7 +1235,7 @@ header .nav__menu {
 }
 
 /*Responsive*/
-@media (max-width: 880px) {
+@media (max-width: 680px) {
   .img__personajes {
     height: 100%;
     z-index: -1;
